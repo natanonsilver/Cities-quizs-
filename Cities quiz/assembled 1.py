@@ -1,6 +1,6 @@
 from random import shuffle
 # In this version I will be using dictionaries and list to create my sports quiz.
-print("Welcome To General Cites Quiz")
+print("Welcome To General Cities Quiz")
 import datetime
 x=datetime.datetime.now()
 print(x)
@@ -114,7 +114,7 @@ questions=[
      
 [
     "What is the captial for San Marino?",
-    {'answer':'c','option':'\na.San Marino \nb.Pyongyang \nc.Marigot \nd.Canberra'}
+    {'answer':'a','option':'\na.San Marino \nb.Pyongyang \nc.Marigot \nd.Canberra'}
     ],    
 
 [
@@ -128,7 +128,7 @@ questions=[
 
 [
     "What is the captial for Syria?",
-    {'answer':'c','option':'\na.Yaren \nb.Harare \nc.Palikir \nd.Damascus'}
+    {'answer':'d','option':'\na.Yaren \nb.Harare \nc.Palikir \nd.Damascus'}
     ],
 
 
@@ -153,9 +153,9 @@ while r>0:
                 print("Great job, its right! ")
                 print("---------------------------")
                 score +=1
-                print("=======")
+                print("===================")
                 print("your score is",score)
-                print("=======")
+                print("===================")
             else:
                 print("-----------------------------------------------------------------------------")
                 print("oh no sorry your answer is not correct. This is the correct answer is ",answer)    
@@ -180,3 +180,4 @@ print("-------------------------------- QUIZ SUMMARY ---------------------------
 print("Your score is",score) 
 print("Quiz Complete, WELL DONE :)")
 exit()
+
