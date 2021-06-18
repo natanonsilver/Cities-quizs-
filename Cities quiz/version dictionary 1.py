@@ -1,57 +1,33 @@
-#dictionary
+#Creating dictionary for question and the right answer
 
-score = 0
-questions=[
-
-[
-    "What is the capital of Nigeria?",
-    {'answer':'a','option':'\na.Abuja \nb.Miami \nc.Belmopan \nd.Jerusalem '}
-    ],
-
-[
-    "What is the captial for Spain?",
-    {'answer':'b','option':'\na.Astana \nb.Madrid \nc.Kingston \nd.Bujumbura '}
-    ],
-
-
-[
-    "What is the captial for Canada?",
-    {'answer':'c','option':'\na.Philipsburg \nb.Lusaka \nc.Ottawa \nd.Lima '}
-    ],    
-   
-[
-    "What is the captial for New Zealand?",
-    {'answer':'b','option':'\na.Monrovia\nb.Wellington \nc.Ottawa \nd.Suva '}
-    ],    
-   
-
-[
-    "What is the captial for Italy",
-    {'answer':'a','option':'\na.Rome \nb.Palikir\nc.Algiers \nd.Seoul'}
-    ],    
-     
+citesquiz={
+'1.What is the captial for Nigeria' : 'a',
+'2.What is the captial for Spain' :'b',
+'3.What is the captial for Canada' :'c',
+'4.What is the captial for New Zealand' :'b',
+'5.What is the captial for Italy' :'a',
+'6.What is the captial for Peru' :'c',
+'7.What is the captial for San Marino' :'a',
+'8.What is the captial for Mexico' : 'c',
+'9.What is the captial for United States Of America' : 'b',
+'10.What is the captial for Syria' :'d'
 
 
-[
-    "What is the captial for Peru?",
-    {'answer':'c','option':'\na.Copenhagen \nb.Kuwait City\nc.Lima'}
-    ],    
-     
-[
-    "What is the captial for San Marino?",
-    {'answer':'c','option':'\na.San Marino \nb.Pyongyang \nc.Marigot \nd.Canberra'}
-    ],    
+}
 
-[
-    "What is the captial for Mexico?",
-    {'answer':'c','option':'\na.West Island \nb.Bissau \nc.Mexico City \nd.Nouakchott '}
-    ],    
-[
-    "What is the captial for United States Of America?",
-    {'answer':'d','option':'\na.Nairobi \nb.Washington DC \nc.Stanley \Phnom Penh '}
-    ],    
-
-[
-    "What is the captial for Syria?",
-    {'answer':'c','option':'\na.Yaren \nb.Harare \nc.Palikir \nd.Damascus'}
-    ],
+#Creating list of answer options
+optlist=[
+'a)Abuja:b)Miami:c)Belmopan:d)Jerusalem',
+'a)Astana:b)Madrid:c)Kingston:d)Bujumbura',
+'a)Philipsburg:b)Lusaka:c)Ottawa:d)Lima',
+'a)Monrovia:b)Wellington:c)Ottawa:d)Suva',
+'a)Rome:Palikir:b)Algiers:c)Seoul',
+'a)Copenhagen:b)Kuwait City:c)Lima',
+'a)San Marino:b)Pyongyang:c)Marigot:d)Canberra',
+'a)West Island:b)Bissau:c)Mexico City:d)Nouakchott',
+'a)Nairobi:b)Washington DC:c)Stanley:d)Phnom Penh',
+'a)Yaren:b)Harare:c)Palikir:d)Damascus',
+]
+index=0
+score=0
+optnum=0
