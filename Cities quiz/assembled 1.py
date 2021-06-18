@@ -1,5 +1,5 @@
-# In this version I will be using dictionaries and list to create my sports quiz.
-print("Welcome To Sports Rules and Skills Quiz")
+#in this version, it is the assembled 
+print("Welcome To General Cities Quiz!")
 import datetime
 x=datetime.datetime.now()
 print(x)
@@ -126,5 +126,3 @@ if ready== "x" :  #If the user inputs x or no, when they are asked if they want 
 elif ready== "no":
     print ("Consider playing later ")
 exit()
-
-
