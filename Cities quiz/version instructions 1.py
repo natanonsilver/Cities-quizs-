@@ -1,4 +1,4 @@
-#Asking the user to enter their age by using try and except.
+#Asking the user for instructions by using try and except.
 
 def instructions():
     inst=input("Do you need instructions to play? : answer 'y' for Yes and 'n' for No")
@@ -16,14 +16,12 @@ instructions()#calling instructions function
 
 
 #Asking the user for their status
-
-ready=input("Are you ready for the quiz?:")
+ready=input("Are you ready for the quiz?: press y to continue or x to exit:")
 
 if ready=="y" or ready == "yes" :
     print("lets continue")
     print("------------------------------------------------------------")
     print("Please answer the questions with the the alphabets (a,b,c,d)")
     print("------------------------------------------------------------")
-elif ready=="n" or ready == "No":
-    print("Come back and play agin")
-    exit()
+
+#Creating dictionary for question and the right answer
